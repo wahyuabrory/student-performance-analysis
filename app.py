@@ -82,34 +82,48 @@ def get_category_mappings():
     # Nationality mapping - create a more descriptive mapping
     nationality_map = {
         1: "Portuguese",
+        2: "German",
         6: "Spanish",
         11: "Italian",
-        13: "German",
-        14: "French",
-        17: "Dutch",
-        21: "British",
-        26: "Polish",
-        32: "Romanian",
+        13: "Dutch",
+        14: "English",
+        17: "Lithuanian",
+        21: "Angolan",
+        22: "Cape Verdean",
+        24: "Guinean",
+        25: "Mozambican",
+        26: "Santomean",
+        32: "Turkish",
         41: "Brazilian",
-        62: "Angolan",
-        103: "Other European",
+        62: "Romanian",
+        100: "Moldova (Republic of)",
+        101: "Mexican",
+        103: "Ukrainian",
+        105: "Russian",
+        108: "Cuban",
+        109: "Colombian"
     }
     
     # Application mode mapping
     application_mode_map = {
-        1: "General access regime 1st phase",
-        5: "General access regime 2nd phase",
-        7: "Special contest for over 23 years old",
-        15: "Transfer from another institution",
-        16: "Change of course",
-        17: "Special access regime",
-        18: "With higher education degree",
-        39: "Mid-Career access",
-        42: "Change of institution",
-        43: "Special contest (Other)",
+        1: "1st phase - general contingent",
+        2: "Ordinance No. 612/93",
+        5: "1st phase - special contingent (Azores Island)",
+        7: "Holders of other higher courses",
+        10: "Ordinance No. 854-B/99",
+        15: "International student (bachelor)",
+        16: "1st phase - special contingent (Madeira Island)",
+        17: "2nd phase - general contingent",
+        18: "3rd phase - general contingent",
+        26: "Ordinance No. 533-A/99, item b2) (Different Plan)",
+        27: "Ordinance No. 533-A/99, item b3 (Other Institution)",
+        39: "Over 23 years old",
+        42: "Transfer",
+        43: "Change of course",
         44: "Technological specialization diploma holders",
-        51: "Change of course (internal)",
-        53: "International student (special agreement)"
+        51: "Change of institution/course",
+        53: "Short cycle diploma holders",
+        57: "Change of institution/course (International)"
     }
     
     # Course mapping
@@ -196,12 +210,14 @@ def get_category_mappings():
         9: "12th Year of Schooling - Not Completed",
         10: "11th Year of Schooling - Not Completed",
         12: "Other - 11th Year",
-        15: "10th Year of Schooling",
+        14: "10th Year of Schooling",
+        15: "10th Year of Schooling - Not Completed",
         19: "Basic Education 3rd Cycle (9th/10th/11th Year) or Equivalent",
+        38: "Basic Education 2nd Cycle (6th/7th/8th Year) or Equivalent",
         39: "Technological Specialization Course",
         40: "Higher Education - Degree (1st Cycle)",
         42: "Professional Higher Technical Course",
-        43: "Higher Education - Licentiate"
+        43: "Higher Education - Master (2nd Cycle)"
     }
     
     return {
