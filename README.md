@@ -64,6 +64,9 @@ Setelah aplikasi berhasil dijalankan di browser Anda:
 3.  Jika sistem mendeteksi mahasiswa berisiko tinggi untuk dropout, Anda dapat mengklik tombol "**Generate Intervention Plan**" untuk mendapatkan rekomendasi rencana intervensi yang lebih terperinci dan personal.
 4.  Gunakan informasi dan rencana intervensi ini sebagai dasar untuk menerapkan strategi dukungan yang paling tepat bagi mahasiswa tersebut.
 
+> [!NOTE]
+> Link ke Machine Learning Solution: [Student Performance Prediction](https://studentdropoutpred.streamlit.app/)
+
 ## Kesimpulan Analisis Data
 
 Berdasarkan analisis data yang telah dilakukan pada dataset mahasiswa, beberapa temuan kunci adalah:
